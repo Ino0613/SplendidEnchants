@@ -36,6 +36,7 @@ taboolib {
 
     relocate("org.serverct.parrot.parrotx", "world.icebear03.splendidenchants.libs.parrotx")
     relocate("com.mcstarrysky.starrysky", "world.icebear03.splendidenchants.libs.starrysky")
+    relocate("ink.ptms.um", "ink.ptms.chemdah.um")
 }
 
 repositories {
@@ -47,7 +48,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
 
     compileOnly("ink.ptms:nms-all:1.0.0")
     compileOnly("ink.ptms.core:v11605:11605")
@@ -60,7 +61,8 @@ dependencies {
     compileOnly("ink.ptms.core:v11701:11701:mapped")
     compileOnly("ink.ptms.core:v12001:12001:mapped")
     compileOnly("ink.ptms.core:v12001:12001:universal")
-
+    compileOnly("ink.ptms.core:v12004:12004:mapped")
+    compileOnly("ink.ptms.core:v12004:12004:universal")
     taboo("org.tabooproject.taboolib:module-parrotx:1.5.5") // Module-ParrotX
     taboo("com.mcstarrysky.taboolib:module-starrysky:2.0.0-14") // Module-StarrySky
 
