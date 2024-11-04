@@ -10,7 +10,7 @@ buildscript {
 plugins {
     `java-library`
     `maven-publish`
-    id("io.izzel.taboolib") version "2.0.17" // 最低要求
+    id("io.izzel.taboolib") version "2.0.11"
     id("org.jetbrains.kotlin.jvm") version "1.8.22"
 }
 
@@ -32,7 +32,7 @@ taboolib {
         }
     }
 
-    version { taboolib = "6.2.0" }
+    version { taboolib = "6.1.1-beta17" }
 
     relocate("org.serverct.parrot.parrotx", "world.icebear03.splendidenchants.libs.parrotx")
     relocate("com.mcstarrysky.starrysky", "world.icebear03.splendidenchants.libs.starrysky")
