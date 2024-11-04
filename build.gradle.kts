@@ -10,7 +10,7 @@ buildscript {
 plugins {
     `java-library`
     `maven-publish`
-    id("io.izzel.taboolib") version "2.0.2"
+    id("io.izzel.taboolib") version "2.0.17" // 最低要求
     id("org.jetbrains.kotlin.jvm") version "1.8.22"
 }
 
