@@ -31,7 +31,7 @@ taboolib {
         }
     }
 
-    version { taboolib = "6.1.0" }
+    version { taboolib = "6.2.0" }
 
     relocate("org.serverct.parrot.parrotx", "world.icebear03.splendidenchants.libs.parrotx")
     relocate("com.mcstarrysky.starrysky", "world.icebear03.splendidenchants.libs.starrysky")
