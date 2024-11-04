@@ -41,6 +41,7 @@ taboolib {
 repositories {
     mavenLocal()
     maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://repo.tabooproject.org/repository/releases")
     mavenCentral()
 }
 
