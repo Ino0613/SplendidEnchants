@@ -33,7 +33,7 @@ taboolib {
     }
 
     version { taboolib = "6.1.1-beta17" }
-
+    relocate("ink.ptms.um", "ink.ptms.chemdah.um")
     relocate("org.serverct.parrot.parrotx", "world.icebear03.splendidenchants.libs.parrotx")
     relocate("com.mcstarrysky.starrysky", "world.icebear03.splendidenchants.libs.starrysky")
 
