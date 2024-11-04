@@ -61,8 +61,6 @@ dependencies {
     compileOnly("ink.ptms.core:v11701:11701:mapped")
     compileOnly("ink.ptms.core:v12001:12001:mapped")
     compileOnly("ink.ptms.core:v12001:12001:universal")
-    compileOnly("ink.ptms.core:v12004:12004:mapped")
-    compileOnly("ink.ptms.core:v12004:12004:universal")
     taboo("org.tabooproject.taboolib:module-parrotx:1.5.5") // Module-ParrotX
     taboo("com.mcstarrysky.taboolib:module-starrysky:2.0.0-14") // Module-StarrySky
 
