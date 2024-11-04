@@ -36,7 +36,7 @@ taboolib {
 
     relocate("org.serverct.parrot.parrotx", "world.icebear03.splendidenchants.libs.parrotx")
     relocate("com.mcstarrysky.starrysky", "world.icebear03.splendidenchants.libs.starrysky")
-    relocate("ink.ptms.um", "ink.ptms.chemdah.um")
+
 }
 
 repositories {
