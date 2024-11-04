@@ -24,7 +24,7 @@ jobs:
       - name: build
         continue-on-error: true
         id: build_1
-        run: ./gradlew build
+        run: ./gradlew build --refresh-dependencies
       # 第二次构建
       - name: build (retry 1)
         continue-on-error: true
