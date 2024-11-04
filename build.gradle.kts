@@ -3,9 +3,7 @@ import io.izzel.taboolib.gradle.*
 buildscript {
     repositories {
         maven("https://maven.aliyun.com/repository/central")
-        maven {
-        url 'https://repo.tabooproject.org'
-        }    
+        maven("https://repo.tabooproject.org/repository/releases")
     }
 }
 
